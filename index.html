@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Token Contract UI</title>
-    <link rel="stylesheet" type="text/css" href="./template/new_token.css">
-</head>
-<body>
-<h1>Token Contract UI</h1>
-<div>
-    <label for="totalSupply">Total Supply:</label>
-    <input type="number" id="totalSupply" placeholder="Enter total supply">
-</div>
-<div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" placeholder="Enter token name">
-</div>
-<div>
-    <label for="symbol">Symbol:</label>
-    <input type="text" id="symbol" placeholder="Enter token symbol">
-</div>
-<button onclick="executeContract()">Execute Contract</button>
-<script src="./newToken.js"></script>
-</body>
-</html>
+<script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+<script src="./abi.js"></script>
+<script src="./tokenContract.js"></script>
