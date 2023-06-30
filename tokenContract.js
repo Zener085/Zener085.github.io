@@ -1,7 +1,7 @@
 let contract;
 let accounts;
 let contractAddress = "0x331158dA2fEF1156E9ebCACfa84Bdc3BD82e44a9";
-let abi = "[]";
+let abi = [];
 async function initContract() {
     if (typeof web3 === "undefined") {
         alert("Please install MetaMask to interact with this Dapp.");
